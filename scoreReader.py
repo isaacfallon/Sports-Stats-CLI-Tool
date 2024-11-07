@@ -16,7 +16,7 @@ class ScoreReader:
                 #  The variable containing the sorted data is displayed based on the data in its rows.
             for row in sortedData:
                 print("name: " + row['firstname'], row['lastname'])
-                print("details: in division " + row['division'] + " from " + row['date'] + " performing " + row['summary'] + row['points']+ "\n")
+                print("details: in division " + row['division'] + " from " + row['date'] + " performing " + row['summary'] + " with a score of: " + row['points']+ "\n")
 
     # Start by prompting the user for a csv file name and check if the file exists. If it does, fun our CSV 
     file_input = input('Please enter the csv file name (without the file type extension) in this directory: ') + '.csv'
@@ -24,7 +24,7 @@ class ScoreReader:
     if check_file:
         process_CSV_file(file_input)
 
-        # Run a while loop if there is no file name detected. Once a file is found, run our importFoundCSV() function above to read the contents of the file. 
+    # Run a while loop if there is no file name detected. Once a file is found, run our importFoundCSV() function above to read the contents of the file. 
     while check_file is False:
         file_input = input('No CSV file found, please try again: ') + '.csv'
         check_file = os.path.isfile(file_input)
