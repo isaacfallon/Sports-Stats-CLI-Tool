@@ -6,7 +6,7 @@ class ScoreReader:
     
     # Function to import csv manipulation module and display the contents of the csv file decided by the user.
     def process_CSV_file(file_input):
-        print('records:\n')
+        print('\nrecords:\n')
         # Import the csv module, open the csv in 'read-only' and set a csv.DictReader object containing the file's rows to a variable.
         with open(file_input, newline='') as csvfile:
             reader = csv.DictReader(csvfile)
