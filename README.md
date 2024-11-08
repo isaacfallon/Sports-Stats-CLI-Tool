@@ -1,4 +1,4 @@
-# Name-Reader-CLI-Tool
+# Sports-Stats-CLI-Tool
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
