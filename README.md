@@ -4,7 +4,7 @@
 
 ## Description
 
-This application is a CLI tool which reads a .csv file to sort data regarding a sports league with several divisions, points accrued and roles assigned to various players.
+This application is a CLI (command line interface) tool which reads a .csv file to sort data regarding a sports league with several divisions, points accrued and roles assigned to various players.
 
 The application is built with Python using a Class based structure to assist with testing. When a valid .csv file is located based on the user's input, the contents of the file are sorted based on division in ascending order and score in descending order. Only the top three records are provided to improve clarity. 
 
