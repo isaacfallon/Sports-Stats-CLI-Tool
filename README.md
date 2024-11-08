@@ -27,10 +27,12 @@ To install this application, simply clone or download this repository to your lo
             
 ## Usage
 
+Please ensure Python is downloaded and installed on your local machine. To install, visit the [official page here](https://www.python.org/downloads/).
+
 1. Navigate to the cloned or downloaded folder in your terminal
 2. Enter the following: & C:/Python312/python.exe *[CURRENT DIRECTORY]*/Name-Reader-CLI-Tool/scoreReader.py    
 
-(NOTE: that you'll need to enter your full directory in the [CURRENT DIRECTORY] slot above. To find this, enter the "pwd" command in Unix-based systems or "cd" command without any arguments in Windows )
+(NOTE: that you'll need to enter your full directory in the [CURRENT DIRECTORY] slot above. To find this, enter the "pwd" command in Unix-based systems or "cd" command without any arguments in Windows. Also, if Python is installed on another drive, you'll need to change the drive letter to replace the 'C:/' as shown above.)
             
 ## License
             
